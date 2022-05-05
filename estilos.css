@@ -4,6 +4,7 @@ body {
     margin-right: 10%;
     margin-top: 0%;
     margin-bottom: 0%;
+    font-size: 20px;
   }
   h1 {
     color: rgb(2, 0, 0);
@@ -30,9 +31,18 @@ body {
   }
 
 
-  #primeira-curiosidade, #segunda-curiosidade, #terceira-curiosidade, #quarta-curiosidade {
+  #primeira-curiosidade, #segunda-curiosidade, #terceira-curiosidade, #quarta-curiosidade, #sexta-curiosidade {
     color: rgb(2, 0, 0);
     background: url(imgs/favo-de-mel.png);
+    background-repeat: repeat;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  #quinta-curiosidade{
+    color: rgb(2, 0, 0);
+    background: url(imgs/favo-de-mel.png);
+    margin-top: 80px;
     background-repeat: repeat;
     border-radius: 5px;
     padding: 15px;
@@ -56,6 +66,21 @@ body {
     border-style: solid;
     border-color: rgba(232, 236, 2, 0.979);
     
+  }
+
+  .casta-de-abelha-rainha
+  {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgba(232, 236, 2, 0.979);
+    
+  }
+
+  .interrompendo-flutuacao {
+    clear: both;
   }
   
 
